@@ -65,57 +65,70 @@
         <h1>Welcome to, <span class="text-primary fw-bold">Taha's</span> shopping card</h1>
     </header>
     <main class="cart">
-        <div class="bg-white m-4 px-5 py-4 d-flex align-items-center justify-content-between ">
-            <img class="img-fluid" height="135px" width="115" src="images/product-1.png" alt="">
-            <h4>iPhone 11 128GB Black</h4>
-            <div class="d-flex ">
-                <button id="phone-minus" class="btn btn-default btn-default-minus">
-                    <i class="fas fa-minus">
-                    </i>
-                </button>
-                <div class="input-group ">
-                    <input type="number" id="phone-input" class="form-control cart-input text-center " value="1"
-                        aria-describedby="addon-wrapping">
-                </div>
-                <button id="phone-pluse" class="btn btn-default btn-default-pluse">
-                    <i class="fas fa-plus"> </i>
-                </button>
+        <div class="bg-white m-4 px-5 py-4 d-flex align-items-center ">
+            <div class="d-flex align-items-center w-50 ">
+                <img class="img-fluid" height="135px" width="115" src="images/product-1.png" alt="">
+                <h4>iPhone 11 128GB Black</h4>
             </div>
-            <h4>$ <span id="phone-price">2438</span></h4>
+
+            <div class="d-flex align-items-center justify-content-around w-50">
+                <div class="d-flex justify-content-between">
+                    <button id="phone-minus" class="btn btn-default btn-default-minus">
+                        <i class="fas fa-minus">
+                        </i>
+                    </button>
+                    <div class="input-group ">
+                        <input type="number" id="phone-input" class="form-control cart-input text-center " value="1"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <button id="phone-pluse" class="btn btn-default btn-default-pluse">
+                        <i class="fas fa-plus"> </i>
+                    </button>
+                </div>
+                <h4>$ <span id="phone-price">2438</span></h4>
+            </div>
             <img src="images/remove.png" alt="">
         </div>
-        <div class="bg-white m-4 px-5 py-4 d-flex align-items-center justify-content-between ">
-            <img class="img-fluid" height="135px" width="115" src="images/product-2.png" alt="">
-            <h4>iPhone 11 Silicone Case - Black</h4>
-            <div class="d-flex ">
-                <button id="case-minus" class="btn btn-default btn-default-minus">
-                    <i class="fas fa-minus">
-                    </i></button>
-                <div class="input-group ">
-                    <input id="case-input" type="number" class="form-control cart-input text-center " value="1"
-                        aria-describedby="addon-wrapping">
-                </div>
-                <button id="case-pluse" class="btn btn-default btn-default-pluse"><i class="fas fa-plus"> </i></button>
+
+        <div class="bg-white m-4 px-5 py-4 d-flex align-items-center">
+            <div class="d-flex align-items-center w-50">
+                <img class="img-fluid" height="135px" width="115" src="images/product-2.png" alt="">
+                <h4>iPhone 11 Silicone Case - Black</h4>
             </div>
-            <h4>$ <span id="case-price">59</span></h4>
+
+            <div class="d-flex align-items-center justify-content-around w-50">
+                <div class="d-flex ">
+                    <button id="case-minus" class="btn btn-default btn-default-minus">
+                        <i class="fas fa-minus">
+                        </i></button>
+                    <div class="input-group ">
+                        <input id="case-input" type="number" class="form-control cart-input text-center " value="1"
+                            aria-describedby="addon-wrapping">
+                    </div>
+                    <button id="case-pluse" class="btn btn-default btn-default-pluse"><i class="fas fa-plus">
+                        </i></button>
+                </div>
+                <h4>$ <span id="case-price">59</span></h4>
+            </div>
             <img src="images/remove.png" alt="">
+
         </div>
         <div class="bg-white m-4 px-5 py-4 d-flex flex-column  ">
             <div class="d-flex justify-content-between px-4">
                 <h4>Subtotal:</h4>
-                <h4>$ <span id="sub-total">2497</span></h4>
+                <h4 class="pe-5">$ <span id="sub-total">2497</span></h4>
             </div>
             <div class="d-flex justify-content-between px-4">
                 <h4>Tax:</h4>
-                <h4>$ <span id="tax">249.70</span></h4>
+                <h4 class="pe-5">$ <span id="tax">249.70</span></h4>
             </div>
             <div class="d-flex justify-content-between px-4">
                 <h4>Total:</h4>
-                <h4>$ <span id="total">2746.70</span></h4>
+                <h4 class="pe-5">$ <span id="total">2746.70</span></h4>
             </div>
         </div>
         <div class="d-flex justify-content-end me-4">
-            <button type="button" id="btn-chak" class="btn btn-success check-out px-4 py-2 fs-3 ali">
+            <button type="button" id="btn-chak" class="btn btn-success check-out  px-4 py-2 fs-3 ali">
                 Check Out
             </button>
         </div>
